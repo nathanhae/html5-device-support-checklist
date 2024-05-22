@@ -1,5 +1,5 @@
-import core from '@actions/core'
-import github from '@actions/github'
+import core from '@actions/core';
+import github from '@actions/github';
 
 function validateBody(body) {
   return !body.split("\n").some(l => l.startsWith('- [ ]'));
