@@ -1,0 +1,5 @@
+name: Device Support Checklist
+description: Validate Device Support Checklist
+runs:
+  using: "node20"
+  main: "index.js"
